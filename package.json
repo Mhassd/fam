@@ -5,8 +5,11 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
-  },
+  "start": "node index.js",
+  "heroku-prebuild": "echo skip",
+  "heroku-build": "echo skip",
+  "heroku-postbuild": "echo skip"
+  }
   "keywords": [
     "termux",
     "whatsapp",
